@@ -23,6 +23,10 @@ function App() {
       window.alert("Please, Enter player B's name:")
       return
     }
+    if (playerOne === playerTwo) {
+      window.alert("names must be different!")
+      return
+    }
     setPlay(true);
   };
 
